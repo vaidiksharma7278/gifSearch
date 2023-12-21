@@ -1,9 +1,12 @@
 {
+  "homepage": "http://vaidiksharma7278.github.io/gifSearch",
   "name": "nextjs-with-typescript",
   "version": "5.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -32,6 +35,7 @@
     "@types/react": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
+    "gh-pages": "^6.1.0",
     "sass": "^1.55.0",
     "typescript": "latest"
   }
