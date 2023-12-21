@@ -1,0 +1,38 @@
+{
+  "name": "nextjs-with-typescript",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@tanstack/react-query": "^4.13.0",
+    "bootstrap": "^4.6.0",
+    "clsx": "^1.2.1",
+    "firebase": "^10.7.1",
+    "intersection-observer": "^0.12.2",
+    "just-debounce-it": "^3.1.1",
+    "mdbootstrap": "^4.20.0",
+    "next": "latest",
+    "react": "latest",
+    "react-bootstrap": "^2.9.1",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "sass": "^1.55.0",
+    "typescript": "latest"
+  }
+}
